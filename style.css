@@ -1,0 +1,53 @@
+
+
+body{
+    background-color: darkslategray;
+    color: aliceblue;
+    font-family: cursive;
+    text-align: center;
+	cursor: default;
+}
+
+main {
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+.content{
+	max-width: fit-content;
+    margin: 0 auto;
+    padding: 13px;
+}
+
+footer{
+	padding: 20px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: pink;
+	cursor: pointer;
+}
+.search{
+    width: 80%;
+}
+.search,.go{
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 5px;
+	font-size: 15px;
+    padding: 12px;
+	color: aliceblue;
+}
+
+.go:hover{
+	background-color: tomato;
+	cursor: pointer;
+}
+.go:active{
+	background-color: rgb(207, 70, 45);
+}
